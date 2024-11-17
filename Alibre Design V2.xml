@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AppCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Default="false" CfgFormatVersion="1.3" ThisFileVersion="1.0">
+  <AppInfo>
+    <Signature>
+      <Name>Alibre Design</Name>
+      <SiOpenAppName>Alibre Design 3DXware V2</SiOpenAppName>
+    </Signature>
+    <Options>
+      <UseSiOpenAppName>true</UseSiOpenAppName>
+    </Options>
+  </AppInfo>
+  <CfgProperties>
+    <ID>ID_AlibreDesign</ID>
+    <Name>Alibre Design</Name>
+    <InheritsFromID>ID_AlibreDesign</InheritsFromID>
+  </CfgProperties>
+  <AuthorInfo>
+    <DriverVersion>17.9.1.21132</DriverVersion>
+    <Created>
+      <Tool>3DxSmartUi</Tool>
+      <Version>1.2.24269.21082</Version>
+      <Date>2024:11:6:16:21:53:45:836</Date>
+      <User>B59EA8A8-9B76-4B3E-A1B5-9342D6E30427</User>
+    </Created>
+    <LastChange>
+      <Tool>3DxSmartUi</Tool>
+      <Version>1.2.24269.21082</Version>
+      <Date>2024:11:0:17:11:31:52:580</Date>
+      <User>B59EA8A8-9B76-4B3E-A1B5-9342D6E30427</User>
+    </LastChange>
+  </AuthorInfo>
+  <ButtonActions>
+    <ButtonAction Type="Sequence">
+      <ID>Macro_1468138f-3ad7-425b-a7c3-5327a80808f2</ID>
+      <Name>Boss Extrude</Name>
+      <Image Type="Data">
+        <Data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANSSURBVEhLxZbrS9NhFMfN6bxM29iCMLS0P6AielMShOQtnToxHaJkmDdKyzCKemMEQfqiErKLGQSCGljYvCSmoRaIpXahgWllpm1uPzc3Ny+lfjvPTw2n85IpvfiyjT3P+fzO9znPOT8HrVaLjdT/B3AcB5PJjOHhYeh0OrtrltOSABbMarHgy9c+XL/xABWPnxHExIPsrV9KdgEsiMFgQllZNRQKOY4niqCI8EZm1gV0dKphtVr5zOztXahFAL1ej/b2Dpw+k4noyK2oLBcAE27Q9bkg95IAwUH7kJ9/D33fNbBQhoODgzb7F8oGYDQa6Qk7sWevPwIDnGDRCAG4A6MigpAm3fHmlYAy8kBUlIJsq6M9M+ezFMgGYDabUVtbj4BDPkhQeiIzQ4p3rZ7ANEHGCTDCICJMW91QUbIJ8rBtSE3NRtvr92Sbhc9eo9EsD6iqbkTGCT9wvS64WyBBaNAWXM2VkEUeBCKAdVb03TggREGeAOFhu6gQbqG/v5+HzI9pF5B8zA8T3Iw9vWoPZGdJIQ+VofShGJMWCj5FGiPR/5oeDwQHCuHtsx1NTc18jPkxlwRYtQRg3v8i/RShoXYzlEdlSEqQoYNsG+VEuJkngfyIDNeuiKCM9UVNTcMaAGYS854sGTOIUFQoQThlw6zLTJei6y2dkcUZacl+UNHetQHmxNsiQkmxGHExMsqODp9+jw4K+T1s778BmKiKKsvFOJkm/VPCbO36AehMnpSKkZFCgKk1AFRVjUhJ8sW4foMAVdUNUMi9YPjmyPsLVpbrBWANrPtTD9LT0xAbLUFLHfUhag98m1gPABOD6PQciu6XITjkIM5nu6Cvy2kmG2bZQgBV1rRJSLbuwFPVCvdgTuy6s5asVn9GzrnLCAneieJCASaGXfnKqSybBbAqIrW9cMDhAB/UP2+m4WSyiWUXMCeDwUBPNIK6+peIUyYiXilBa4sjqis8kX1KijGjM91iJwQG7kZBwR0MDAwsmnrLAphYGx4ZMdMnh8LbJYiK8Kfe44oD+50RH+eF1DTWTT/ws0GvXzxSVwTMieP0fJCP6m6czbmIyKgYlD9S0TyYGaOrmgerERtKQ0ND+EF9n70MrPQi8NcAJhZ0Yd+3Ly1+A3kQpHGjabgTAAAAAElFTkSuQmCC</Data>
+      </Image>
+      <Sequence Pause="120">
+      </Sequence>
+    </ButtonAction>
+    <ButtonAction Type="Sequence">
+      <ID>Macro_3bcd4bda-b3c1-492b-b2e7-4cefd4ec81f9</ID>
+      <Name>Cut Extrude</Name>
+      <Image Type="Data">
+        <Data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARASURBVEhLpZZpTFRXGIZti6YQtBJMatOFqcuwDNsAVRCGdWAYEBxQlIp7FBnbSGhNQQXFhqLIIiSGBGNtY1ttGqK1ErQIXbTSRKoNqdJGkmJBZJNtBtMfpn16zlUMhEWkP96c3Nx73+ec95z7fXdGZ2cnk6m3t5fBgUG6u7vHvf80TQiQxhaLhV9vNHCh+hzdXV0MDAzQJcbxnp9IYwByplbrEPfu3aWi/AiBoQbUXsGY07bScO2quGelr69v1DuTaRSgp6eHwUELNd9Wk5RkQuVtwndzDbpdbSwK34t2qY6Swjz+utOigKYS2xOANG9paWFfzm4x4yBcVxwjMvcBMQUQcxCMh2BJaj1OPsnExBg5W3laxHhf2Z/JYnsCkDOqrb2ESqXC0cmPwLQrxB4W5sI4Ok/oI5TryAN/o0k8wSJvPTvSNovY6pVI5Z6NNB7WKMCF6vN4Bq7EPb6MBdp4XMN2ErrrD2KEsTFfgv5VRgkK+UDEFroHnyU6igvzaW1tpb+/n46OjokBF6u/QRu6jvCcB0Rk/Yl7dA4qzyi0CaVE7rcqxkaxErkiGZu89n+nkTe8VxIbG8WVy5fHHIAxAN/wzfhv/4mFAWa06+sINNejXraJhb4JLNtag1EYy9jkKAGhGbdQ+a5hjsM8iouLFJ/JAfpteK2r4S2tLfqIl1kckiVm2YRfymne9IoWsaUTnnmHyOz7eETvx0kThqepDLXOTFFhwdQALqtr2ZDiSFvTTEryn8driRaN6STBGU3CdB8qdz0qDwPOuu2EZNxU9kgTlSMA+cLHMjXA26sd+WfADrDl919sSFljz+seiejSb6KJzMI5cKtyhGVMBrHxbhGZAnDw2QAP+yTAjt42e3aa5zLb9jk0hn14m0qUeOKKHx1fg9AzAZyTatm0wZHBdjtOffoSBv089mQ6kL1rFgtCcvGKP4y7IZvlRdMCpOK59hLBgXPZmOJAUqIjVWfmKCs5+7kNr/ofmD6guuprtGFbWLbjOrMd1STEzqK31VYxl/ryYxteC5gmQJbmH7+vw00bjHvyWfxTr+IZnMC7qS/SdG2mAjhz8n+sQFbG9vZ2ThyvIEAXJqpntjj/t1DHfiKqqCefVbxARckMnIKmuQdSEjI09IDfGm/wXnoaLn4GNKu+wG9bI27h7+OitsdVv1sACkcBjOKouun3UnAob3KAlCy9snP19/dRda6SFaY4FizdiM+WerQp50WVrXsM2EPcEVE2HtejV5wjKD9apkQ90m8MYFiPOpuVu22tlJbk4+cfirP4osJyLOI7KMXDmEtU3kOcjUVofHR8mJtN8+3bSl8Z6TMhYFiyzkvQ9YafMW/fgtpnOfNdjcx3MbLYfz1rk1fxw3cXRSccHLcnPBUgNRyb7GCVX53CYNATFBTA8WPldHXem/SvY0qAYQ3Hdkf05ObmZqwW65hIRquT/wBGMMXRBQwNbQAAAABJRU5ErkJggg==</Data>
+      </Image>
+      <Sequence Pause="120">
+        <ActionID Pause="40">CTRL+ALT+E</ActionID>
+      </Sequence>
+    </ButtonAction>
+    <ButtonAction Type="Sequence">
+      <ID>Macro_afae96f4-52a3-41a9-9193-4008cc2c410a</ID>
+      <Name>Fillet</Name>
+      <Image Type="Data">
+        <Data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ5SURBVEhLnZZ/TJR1HMeZB6icY63NNtFNyOT3j7PYIUf8kEN+HDeCAjQaYsUiUkHnCmijEFFASHRlW6Wuv9QtNwuTkMJRI/wHmqQYDHXqofySX3dHgCivvs+DTA7uEPvjvWfPPc/zeX0/78/38/meXU9PD8/S0NCQrN7eXqvPF5JNgBRscHAQs8lEU2MDjX9cYnh4SP7N2vu2ZBXQ39+PyWSmo72NzwvzCAiKIiAwjMOHD9F17554ZpLfsfbtXFkAuru7ZSuGh4f5/uQ3hEVswm1jFprdHWhyO1jlnYAmOIJTp88xMDC4qGwsAAMDA7T81UxmZgauATpe3f4b8Ycg+gD4pvyEZ2Ak72csQRe7kqwP99DeflNkY7QIOFcWACn1I1VVrHB2xjXwbbT5BkJ2XeWVoG0kJbxIQ409UxNKum84siPLkZg4PS0tVzGbTXL2s2PNaA7ASEVFOes1mfjpy1njGYHLGhcqixVMjS6Fx0oYFXqoZMq8jNIiBZFaLVeutGE0jlgEntE8QGXFQXyiC4krh5AdzXho0slIc+Z6iwM8EsFNQkahMaEJJ4oKFCQlbeXOnS7Z4tnxJFkBlOKtzSPmIMRXCP+LH+GuO06geq2waA5E2DX6YDnJSSsoKz9mtVdsA0RhY4XiBEgnsvHbWouvyoOmOsdpiASQhJL68/bE6cIwGPro6+t7PkBsyZR81VeCT3I1oaEuGDoERKxeBpiVPDY6kp72EidOnmZk2LIWiwM8gcSVgVtYEZ/kLoPx5U+tmnTiSLmC7I9yGBub+J8AIZ0AaPb04K9+jWuXRRYPnaYBYlf9WWdH0ptvcNdw36LLnwsg34uauIUWUVEsskBkIQGEXbev2aPXq2m63CwX+xmAfOuAkicFf6eRtNQXGBc7iH8FYFxJ/y0HUlO8qK1tED3xtLvnAcrL9uOlLZD7YD5g2qbg3LuEav251Sqab1IAxE4auO1AylsvU11dJ+KYrAMk8tdfHWWVZzTBu9rkOSRt09mAuFKIyB/CJziB1kaFCO7Ezb+XsjNzCV7eHiKDBQBScTo7Oyk9sA/vDWF46KrQFhplW2ZA0nVz0Tjrgt7jwhk7Th1XoA72YnVQAb5BCVysvWAbIA0saQSPjo5S/2sNW1KTcFMloEr/RV75DChm/yTur2eh8lOKUbIddfY/RO0DVXg6NT+fsw2YkdTu04W6z4nvjhEeuZm1mhxC994gXjScVJv1wdvwiCohVoDlJkw9i6e/ht8b6m0Xea6kth8bGxNzv429u7NxV23CO/FbtJ+Z8Qh5F80Hlwj/tAdXzU7CIrWc/eEMhq4ui3GxIEDS7FPuYs2PJCcn4xa4hZXrQli9IQ3fjYnkfZzD9bZWsZjxhWfRQpI2gAQZGnzAl0e/QK0OJDFRL4p6Xj5wbB2fiwbMSAIZR0aEbe10dRlkv23/nenhP+vzBPVkma+iAAAAAElFTkSuQmCC</Data>
+      </Image>
+      <Sequence Pause="120">
+        <ActionID Pause="40">CTRL+ALT+F</ActionID>
+      </Sequence>
+    </ButtonAction>
+    <ButtonAction Type="Sequence">
+      <ID>Macro_3c382f6f-2893-4b1e-a37c-7b13af682023</ID>
+      <Name>Chamfer</Name>
+      <Image Type="Data">
+        <Data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPdSURBVEhLlZVrbNNVFMCRPZgwE4OP6AfQbN0D3ZZ0VbpN5nBd6bp2xLqIThJlWKQifCBzD9CsQIaOYQIhJpKQIBpRMjXMMWBsMjOLSLKocWa+Al3WxblH167tZDwmP+/tNm3XrpUPv/R5z+9/zj3n3gVDQ0NEY2RkhOHh4bC/RSOiQAb1eDyMjo7idrsZGxsL+79IzCtwuVxM+HzYus5jeWUDDXt34XD04xXf3U42IQJZjomJCa5c/pU91lqy1HpSSg6RUriTNXoTLS2tjI+PB62JRJBg+sn+pKnpE7SGMpILasivcmA8AMoNl7j7QQU5K1Pp7v7OX7rAtfMRJJCLLl78BkXyw9yXqkVr9VFQ6yIpfydGwzK62hbRsDsGy6vbcYk9kdkGrg9HkMDr9dJx7gwZOSbSNTtYnvUM2Xkq3m2Mw/dHHLAY50A8Rv0yvjjV6f9/4PpwhAi+PHcaVdFmivbAiqc/xVR6F0zGw9QS8AqE5IPDMTz3/HpRUqe/wwJjzCWsILtwIxrrdXRvQUqumc8/vEMEnhFcXcJV5yLWld3D0WOf+RsiMMZc5hUUvunD+A6ozD+g1S7HMxAL1/7Lov3kQozGYuz2ATEfzqCggUQU6N+GYkFSfq3Yhxi4dee0YEJmksCmikT2Nb4nsvgrKGggkQWiRCX7QL21H/WqTBw/iyxuiuAegXj93haDTqemp+c3/6QHxpolqqB4LxiEJLnoENZq0UlTIguZgeTmYmor46iuqRdrfWHbNrqg/hYlDVBQ4yZjZT49FxZOd9RMFn298ejWpNP1dbeYo9AJDxF0tLUKgRlN3bV/BRJDI6SvPYHl5UT+nkyYzmBmww8fFMO35TXRsq6QcypEcL7jLGkqA3nb+zHuB70okRRIWWHddRSPm/iqZaZtZSY3Evj4yAKyMlOx2b4NOUKCBE6nk74+O9XVr5OSbSCrvNk/C3Kj5V5IYeYLnWIG7gVfHJd/imXr5kSSVaWkK7V0tLf5HzIwZpBAIidzfNzNqeYmDEYjSbkWcrf1+ksk90JXP0XGagvm9bHkFShJK/2IJ9+4QXbRFtrPtkQXSGaPbEe/nf0Nu1HmaEkrOSD2xcfag6JtX2rmfkUxqyoHKRWflRU2ViifEndHZ+QSzUXeYFLUfekCm8wvkvxYGaqNnagrTvOIporCXZMoNFaeWK3l2PtHGBwcDGnViIJZPB4vLnEcnDh+FG2xiQfSNCx9SM2jueuoqtzGL70/+h8k6hxEQu6NDGK/8jvWuh2Ulz/LmdaTouaeeadY8r8Fs8i7WiLfy3pHu59vWyCRpYh2D0wzxD8pC0xZjQkzawAAAABJRU5ErkJggg==</Data>
+      </Image>
+      <Sequence Pause="120">
+        <ActionID Pause="40">CTRL+ALT+H</ActionID>
+      </Sequence>
+    </ButtonAction>
+    <ButtonAction Type="Sequence">
+      <ID>Macro_0a002e1c-14b9-4904-824f-2420222b62af</ID>
+      <Name>Toggle References</Name>
+      <Image Type="Data">
+        <Data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATbSURBVEhLjVZrU1tVFPUP+Fn9Fx0HHcdxtH7xgc6oY5m21vKqDEVbaUGHQgvlESkNTXhEMAIhCWCNKIROGaWUh4PS0hRoIyPPFtKCSW7uvQlJCHlRlvucEiQULB/W3HNzz97rnL3X3jvPOJ1ObIckOjj42kVrgmPjm0twYll2wC05INB6q91OiCMQGMjIOiNiYk6E1+3gT+usyB16yLHd4UT7kBdN13x4sCRAJPKtPrYjnoCcsxPWXPEjpTaC66NuaK6uoLXfh1WvHdfH3MgzruKDC1F8VhfB7IIL8sZNd8M2AoEIBFR2ruCgMowMTRAHVWsoMa1C3bWCI+oQ8hu9KNG7cVoXwv1FCV6PEOdwO+IIXC4RouSB2hzgjsqMHrytWMebJcCx6iC+a3fB1O1A5Q8enG6OoHd4AcOWabLbnWSDQKDTS7DNmmCbqsPFjhA+qgBSq0NIqowiSRnl62KDF8YuByqaH+JwoRWnFP3o+M0KWXI94TiGTQJJlHFnvBXlDUVIVc8iS2ODyhTEl9ow8nSrUP3owaFLEWSoJaQUDCGjdBTDYzZyzg73pOMYOAFL7JLdiYqOKD5RAaXaRnSaEtDZpUW21o/sej8u1I8i+ewIEs8vI7tWwFd6lgOZq2u7063gBJLLiflFATnNYRQ3+5DXKEFpMMLcloDEA+/j5cRifFE8AkXDPNJqQjjbvILc5hBm9qoiRrBABHktIShafMj5PoAMpYTPC1rx3PMvIGHfs9C3qNDY5UdyNUgAPlJRENN7JZBFJ+yU5IJWirlqAWnn/kQ6xblcO4VPC+/ipEKH3s6X0Nl+AMdrpnC0CsjVR3HPJjydgCVIEgX8fvMeMstuIS1/EGll00iv8qPJLCNXt44zeqDNPIE6fSYaml5EkbYBA2MSVbH0vwlm4AStHeM4WdqHoyWTKNc70djpRlZdEGkkzZSqEI5R3I9/u84FkKPpwsDVfZi0ZMHhWIJTEHd0HAMP0Q3LDJdcXksUpUYvfuq2w2B28uLafx54l4rtDMW91iTjCIVnxGrFg7mfiWCRnOxeAwycYFkWsOgQqc8EoTC4UWMSkVm7iiyqgUxtBB9efIQT9QEo22Sk1oRxd9YHj1vm4Ylhu+MY4lSUTcpIqggjXRNGLTW5qfsiqq4EUPFLALpeP1V0BImKR5ik30M+e1xLZ52Xt/AtzjcJRDrB4j8Cd1R0OYjbUxLf7CMj8/Ayfr3lRmDZji5aswK7MSHzTmvs86FtwAdDr5fvmZ538VkhkSrjCGJg/Z1dd+swiQ0fZsiqvb7bT3mgiicYqY33Uws39nlxWB2lFh+F7poftkXXZoXHEbgoVDvF000E49MiddAQ3igC3vtmHb233XQ7D3INIf5kN2Kd93X6zvbdoaHFaiSOYCew/LBcZNCAea0Qjx3QLLD8LeHjyjW8UkCE5Wu4OSFxkTDVsX1sILFCfCqBSARzNhc3ZqdnxicawxijPCVTSF49Bx4eRnhKF+YHYPu+NgQpVHsgYGBXnX8oQNmxgrfK1rG/GDRGvfjjLxkNPT4MWWVcHlwmx+t4h8Kk7AhwVbLb74mAgfUrUXCgx+JGfgtVuSaCSzRaGZHK7Ofv7Pcei4erku1ndnsmYGBzw0tqYs8J+qcxOP5YruzJ3vl3kvZ/QnHiX4hZqYLEPzrSAAAAAElFTkSuQmCC</Data>
+      </Image>
+      <Sequence Pause="120">
+        <ActionID Pause="40">CTRL+SKIFT+P</ActionID>
+      </Sequence>
+    </ButtonAction>
+    <ButtonAction Type="Sequence">
+      <ID>Macro_2d3c3ac0-8941-4a6d-b9b6-8734f55a5810</ID>
+      <Name>Regenerate All</Name>
+      <Image Type="Data">
+        <Data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO4SURBVEhLtZbvT1NXGMf7H/lOXyxZOqfJsr12Mcs2CWIIBa604qQCpZcCiliZCNPqJqW06AbDiGNjtqV2w2QhMn5IDBSxlKL9fW8LgwlZ8t15Toe5rbcVXuzFJ3nu8+t7zznPubmaaDSK/5McgUQigXg8npOwH6iWeih9bwSSySSWlgIIh0NvJe0FqllbCyMQWMip5wKpVApPn86hqsaI843NWFl5AUmSchoUg3LDqyswmVtRKdRhdnaa96SYhoy5uWmcrjWhvsOLcy330SS2MZHn2H69hc3NjaJsv/6bNQ/C0tKOs83DaLzsg2AwYfrPJ1xYI8syHj/246TOiHbbDJw/b+EryzAami6iz+FCb58Lt+3qUMzRP4BGkTUXB9E/uomOb+dRWl4Hv9+LdDqd3aJMJoOJid9QqRdxyTYFx4MMzJ1+VNa5INR/D6GhACxWaXTBZH2EvpE0Om7NoOK0Gf5H47w536JIJMKXEo9FUFNTC+OFn+AYXcfNoRi6B1bRMxAuSrdrledSTcOlMVQJekQjL3lP6q2h6VleXsKFi52oswyi976EK73PoDNY2aGbUX2mBdWGArAY5VToO2D9bh72ERnGtnuwtFnZRC7yydTQUnzjbnxWYsBVRxBd/c9RLohwu8eQliU2cjE231HIcgpb7FAJsslHsXRagtf7EOXVZnxtD+AaW9HxEwY8/HWUb70mFoshwS7ID4ND+OJUE8p0Jlbgxvp6BhQjaLmTk5P4pqeLQzb5duOUOz7uYYPSiM/LTHDducteIBvjh0w3MJlMYHj4R96cJov8u2xsrOM6a/xe6QMO2eRT5qRZjc/nxdDQIH/heDx72bgAQWq0Z7sXRAk1u3bVivfPrHDIzhcgqJZ6KD83bwQIEsl/pq3Y2dmG7XoXtIZFDtnk292m/Brlc46AEkoMhULweDyY+N0H41kBWv0Ch2zyuT1uBIPBt5oqKShASw0uB1BWUQttiR3ak3dxtEHikP1BqRNfntJjeWmB56r1IIquIMUO3jlwBweO2XGkFfjoP44yDhxzwt7nZDnZaVHrQRQUIJLs0NZCAQjnO3GwahGftAMfMw4JL6A714nV4ILqUCgpKkD8xabFPTaCwyW3cFjcwZHmf6A9cRu/jN5TnaR83ikQi8UhSwmIrVdwqGIWB3XzqBcvQ0pmY2o1St4pQMjskzE3M4UPj4vQfmrB1JM/+MVSy81nTwIEzbzNdgM9Pd3cVstRY88CRCTyCi9franGCrEvAfoE7O+vI4p/ASxdsMIVedt8AAAAAElFTkSuQmCC</Data>
+      </Image>
+      <Sequence Pause="120">
+        <ActionID Pause="40">R</ActionID>
+      </Sequence>
+    </ButtonAction>
+  </ButtonActions>
+  <Devices>
+    <Device>
+      <ID>ID_ProductID_C633</ID>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_13</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_1468138f-3ad7-425b-a7c3-5327a80808f2</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_14</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_3bcd4bda-b3c1-492b-b2e7-4cefd4ec81f9</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_afae96f4-52a3-41a9-9193-4008cc2c410a</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_16</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_3c382f6f-2893-4b1e-a37c-7b13af682023</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_0a002e1c-14b9-4904-824f-2420222b62af</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_2d3c3ac0-8941-4a6d-b9b6-8734f55a5810</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+  <MacroTable>
+    <MacroEntry>
+      <ID>CTRL+ALT+E</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>ALT</ID>
+      <KeyStroke>
+        <Key>E2</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>CTRL+ALT+F</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>CTRL+ALT+H</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>B</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>CTRL+SKIFT+P</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>SKIFT+R</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>R</ID>
+      <KeyStroke>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+  </MacroTable>
+</AppCfg>
